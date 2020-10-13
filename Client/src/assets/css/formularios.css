@@ -1,0 +1,25 @@
+.add{
+    position: relative;
+    left: 40%;
+    top: 25%;
+    
+}
+
+.list{
+    position: relative;
+    right: 18%;
+    top: 25%;
+
+}
+
+.contForm{
+    
+    top: 100px;
+}
+
+.volverForm{
+
+    position: relative;
+    top:-5px;
+    
+}
