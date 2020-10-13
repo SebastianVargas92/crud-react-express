@@ -48,11 +48,12 @@ class Productos extends Component {
 
     inputSend(cost) {
         if (cost.toLowerCase() !=="g"){
-            return <p id="costoRojo">Envío interior de Argentina: ${cost}</p>;
+            return <p id="costoRojo">Envío interior de Argentina: ${cost}</p>
             
         } else {
     return <div className="imgEnvio">
-           <Card.Img  classname="envioCard" variant="top" src={'http://localhost:3000/images/envio.jpg'}/>;
+           <Card.Img  className="envioCard" variant="top" src={'http://localhost:3000/images/envio.jpg'} height="17"/> 
+           <p></p>
            </div>
         }
     }
