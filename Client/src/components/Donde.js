@@ -85,5 +85,5 @@ onClose = props => {
 }
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyAl6_NOLaD31dbXQYGnYwXYn5XEcyQle8Q'
+    apiKey: ''
   })(Donde);
